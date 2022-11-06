@@ -13,6 +13,8 @@ in the dynamic array i made the default constructor create a new array of type e
 then as there was no NULL unless it is a pointer/Node I had to check based on the string if = to "" then the Table[index] is empty and an employee can be put.
 to makee it linear probing i made the insert function check if not empty then it would return a  recursive function of (key+1, employee) making it add the employee to the next available slot 
 
+Bonus: Both The dynamic array and the linked list take the Objec[Employee] in 
+
 
 Hash function 
 I used (key % 10) in both the linkedlist and the dynamic array:
@@ -25,3 +27,5 @@ then sent them firstly to the linkedlist table, then printing the table to see h
 
 in the dynamic array i had a similiar apporach with declaring the tables adding the employyes to the table, printing the table content, removing an employee from the table, then conducting a search to make sure the array is working
 then printng the collision rate
+
+Bonus: Both The dynamic array and the linked list take the Objec[Employee] in 
